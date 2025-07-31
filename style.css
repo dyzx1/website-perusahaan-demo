@@ -25,6 +25,25 @@ nav {
   text-align: center;
   position: sticky;
   top: 0;
+}.start-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.start-btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255, 192, 203, 0.5);
+  transition: all 0.3s ease;
+}
+.start-btn:hover {
+  transform: scale(1.05);
+  background-color: deeppink;
 }
 .gallery {
   display: flex;
